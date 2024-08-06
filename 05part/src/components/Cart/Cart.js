@@ -2,6 +2,7 @@ import React from 'react';
 import './Cart.css';
 import Modal from '../UI/Modal/Modal';
 
+
 const Cart = (props) => {
 
     const cartItems = <ul className='cart-items'>{

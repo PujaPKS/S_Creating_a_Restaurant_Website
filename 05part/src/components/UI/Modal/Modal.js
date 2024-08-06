@@ -4,7 +4,7 @@ import './Modal.css';
 
 const Backdrop = (props) => {
     return(
-        <div className='backdrop'></div>
+        <div className='backdrop'/>
     )
 };
 
