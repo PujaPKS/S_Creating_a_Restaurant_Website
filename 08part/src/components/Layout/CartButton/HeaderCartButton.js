@@ -9,12 +9,6 @@ const HeaderCartButton = (props) => {
     return currNumber + Number(item.amount);
   }, 0);
 
-  if (isNaN(numberOfCartItems)) {
-    numberOfCartItems = 0;
-  }
-  // cartCtx.items.forEach(item => {
-  //   quantity = quantity + Number(item.quantity);
-  // });
 
   return (
     <Fragment>
